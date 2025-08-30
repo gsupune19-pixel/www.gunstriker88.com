@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gun Striker 88 - Coming Soon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 50px 20px;
+      background: url("f6bf0c01-c00b-4d6e-9070-810f2acedcd7.png") no-repeat center center;
+      background-size: cover;
+    }
+    h1 {
+      color: red;
+      font-size: 40px;
+    }
+    .coming-soon {
+      color: gold;
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .countdown {
+      font-size: 26px;
+      color: lime;
+      margin-top: 20px;
+    }
+    .notify {
+      margin-top: 30px;
+    }
+    input[type="email"] {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      width: 250px;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background: red;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 5px;
+    }
+    .pre-register {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(90deg, #ff5722, #ff9800);
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .pre-register:hover {
+      background: linear-gradient(90deg, #e64a19, #f57c00);
+      transform: scale(1.05);
+    }
+    footer {
+      background: #111;
+      color: gray;
+      padding: 20px;
+      margin-top: 50px;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gun Striker 88</h1>
+    <div class="coming-soon">🔥 COMING SOON 🔥</div>
+    <div class="countdown" id="countdown"></div>
+    <p>
+      <button>Launching on Play Store – App ID: 123124</button>
+    </p>
+    <div class="notify">
+      <input type="email" placeholder="Enter your email">
+      <button>Notify Me</button>
+    </div>
+    <a href="#" class="pre-register">🔥 Pre-Register Now 🔥</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#screenshots">Screenshots</a>
+    <a href="#download">Download</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <footer>
+    <p>© 2025 Gun Striker 88 | Team: Bhushan + AI</p>
+  </footer>
+
+  <script>
+    // Countdown Timer
+    const countdown = document.getElementById("countdown");
+    const launchDate = new Date("Dec 25, 2025 00:00:00").getTime();
+
+    setInterval(() => {
+      const now = new Date().getTime();
+      const distance = launchDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      countdown.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }, 1000);
+  </script>
+</body>
+</html>
+f6bf0c01-c00b-4d6e-9070-810f2acedcd7.png
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gun Striker 88 - Coming Soon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 20px;
+    }
+    h1 {
+      color: red;
+      font-size: 40px;
+    }
+    img.banner {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    .coming-soon {
+      color: gold;
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .countdown {
+      font-size: 26px;
+      color: lime;
+      margin-top: 20px;
+    }
+    .notify {
+      margin-top: 30px;
+    }
+    input[type="email"] {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      width: 250px;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background: red;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 5px;
+    }
+    .pre-register {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(90deg, #ff5722, #ff9800);
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .pre-register:hover {
+      background: linear-gradient(90deg, #e64a19, #f57c00);
+      transform: scale(1.05);
+    }
+    footer {
+      background: #111;
+      color: gray;
+      padding: 20px;
+      margin-top: 50px;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gun Striker 88</h1>
+
+    <!-- IMAGE HERE -->
+    <img src="5b995494-02ed-454d-866b-cba8cbe1834d.png" alt="Gun Striker Banner" class="banner">
+
+    <div class="coming-soon">🔥 COMING SOON 🔥</div>
+    <div class="countdown" id="countdown"></div>
+    <p>
+      <button>Launching on Play Store – App ID: 123124</button>
+    </p>
+    <div class="notify">
+      <input type="email" placeholder="Enter your email">
+      <button>Notify Me</button>
+    </div>
+    <a href="#" class="pre-register">🔥 Pre-Register Now 🔥</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#screenshots">Screenshots</a>
+    <a href="#download">Download</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <footer>
+    <p>© 2025 Gun Striker 88 | Team: Bhushan + AI</p>
+  </footer>
+
+  <script>
+    // Countdown Timer
+    const countdown = document.getElementById("countdown");
+    const launchDate = new Date("Dec 25, 2025 00:00:00").getTime();
+
+    setInterval(() => {
+      const now = new Date().getTime();
+      const distance = launchDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      countdown.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }, 1000);
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gun Striker 88 - Coming Soon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 20px;
+    }
+    h1 {
+      color: red;
+      font-size: 40px;
+    }
+    img.banner {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    .coming-soon {
+      color: gold;
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .countdown {
+      font-size: 26px;
+      color: lime;
+      margin-top: 20px;
+    }
+    .notify {
+      margin-top: 30px;
+    }
+    input[type="email"] {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      width: 250px;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background: red;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 5px;
+    }
+    .pre-register {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(90deg, #ff5722, #ff9800);
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .pre-register:hover {
+      background: linear-gradient(90deg, #e64a19, #f57c00);
+      transform: scale(1.05);
+    }
+    footer {
+      background: #111;
+      color: gray;
+      padding: 20px;
+      margin-top: 50px;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gun Striker 88</h1>
+
+    <!-- IMAGE HERE -->
+    <img src="5b995494-02ed-454d-866b-cba8cbe1834d.png" alt="Gun Striker Banner" class="banner">
+
+    <div class="coming-soon">🔥 COMING SOON 🔥</div>
+    <div class="countdown" id="countdown"></div>
+    <p>
+      <button>Launching on Play Store – App ID: 123124</button>
+    </p>
+    <div class="notify">
+      <input type="email" placeholder="Enter your email">
+      <button>Notify Me</button>
+    </div>
+    <a href="#" class="pre-register">🔥 Pre-Register Now 🔥</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#screenshots">Screenshots</a>
+    <a href="#download">Download</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <footer>
+    <p>© 2025 Gun Striker 88 | Team: Bhushan + AI</p>
+  </footer>
+
+  <script>
+    // Countdown Timer
+    const countdown = document.getElementById("countdown");
+    const launchDate = new Date("Dec 25, 2025 00:00:00").getTime();
+
+    setInterval(() => {
+      const now = new Date().getTime();
+      const distance = launchDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      countdown.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }, 1000);
+  </script>
+</body>
+</html>
+
+
